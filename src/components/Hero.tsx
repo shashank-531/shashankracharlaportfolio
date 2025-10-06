@@ -110,7 +110,7 @@ const Hero = () => {
               </div>
             </div>
 
-            <div className="absolute -top-4 -right-4 bg-white rounded-2xl p-4 shadow-xl animate-slide-in-left" style={{ animationDelay: '0.2s' }}>
+            <div className="absolute -top-4 -right-8 bg-white rounded-2xl p-4 shadow-xl animate-slide-in-left" style={{ animationDelay: '0.2s' }}>
               <div className="flex items-center gap-3">
                 <div className="w-12 h-12 bg-secondary/10 rounded-full flex items-center justify-center">
                   <span className="text-2xl">💻</span>
