@@ -79,9 +79,9 @@ const Skills = () => {
                   <div key={skillIndex} className="space-y-2">
                     <div className="flex justify-between items-center">
                       <span className="font-medium text-sm">{skill.name}</span>
-                      <span className="text-sm text-muted-foreground font-semibold">{skill.level}%</span>
+                      {/* <span className="text-sm text-muted-foreground font-semibold">{skill.level}%</span> */}
                     </div>
-                    <div className="h-2.5 bg-muted rounded-full overflow-hidden">
+                    {/* <div className="h-2.5 bg-muted rounded-full overflow-hidden">
                       <div
                         className={`h-full bg-gradient-to-r ${
                           category.color === 'primary' 
@@ -96,7 +96,7 @@ const Skills = () => {
                         }}
                       />
                     </div>
-                  </div>
+                  </div> */}
                 ))}
               </div>
             </div>
